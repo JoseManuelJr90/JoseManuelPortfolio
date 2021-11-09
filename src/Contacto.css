@@ -1,0 +1,23 @@
+.icon {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    display: inline-flex;
+    transition: .2s ease;
+}
+
+
+
+.icon:hover{
+    transform: translateY(-5px);
+    ;
+   
+}
+
+.icon .mail:hover{
+    color: rgb(219, 112, 112)
+}
+.icon .whats:hover{
+    color: rgb(112, 219, 169)
+}

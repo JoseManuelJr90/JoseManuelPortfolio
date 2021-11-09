@@ -1,0 +1,119 @@
+.acerca{
+    background: #191919;
+  
+}
+
+img.acerca__img{
+    border-radius: 50%;
+    width: 100%;
+    max-height: 600px;
+    box-shadow: 10px 10px 20px black;
+}
+
+h1.acerca__head{
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: start;
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+}
+
+
+.acerca__cuerpo p{
+  color: rgba(198,201,216,.75);
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Poppins,sans-serif;
+  margin-bottom: 15px;
+  
+}
+
+button.btn {
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid rgb(100, 100, 250);
+    background-color: rgba(50, 50, 131, 0.7);
+    color: #fff!important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .8s all ease;
+    height: 50px;
+    width: 180px;
+    margin: 0px 10px;
+  }
+
+
+button.acerca.btn.pointer{
+    text-decoration: capitalize;
+    width: 195px;
+    height: 55px;
+    font-size: 18px;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.acerca__button{
+    padding: 20px 0;
+}
+
+
+button.acerca.btn.pointer:hover {
+    background: white;
+    color: rgb(100, 100, 250)!important;
+  }
+
+
+a.btn__to__top{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    background-color: rgb(65, 8, 197);
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: .4s ease-out;
+    z-index: 100;
+    
+}
+
+a.btn__to__top.active{
+    display: flex;
+}
+
+/**Responsive*/
+
+
+@media only screen and (max-width:1024px){
+    .p__color{
+        font-size: 15px!important;
+    }
+}
+
+
+@media only screen and (max-width:960px){
+    button.acerca.btn.pointer{
+        margin: 0px 5px;
+        width: 170px;
+        height: 50px;
+        font-size: 15px;
+        transition: .4s ease;
+    }
+}
+
+
+
+@media only screen and (max-width:425px){
+    button.acerca.btn.pointer{
+        margin: 0px 5px;
+        text-transform: capitalize;
+        width: 140px;
+        height: 50px;
+        font-size: 13px;
+        transition: .4s ease;
+    }
+}
