@@ -36,7 +36,7 @@ function Home(){
                         <ul className="navbar d__flex">
                             <Link to = "Home" smooth={true}><li className="nav__items home__item mx__15">Home</li></Link>
                             <Link to = "Acerca_de" smooth={true} offset={-75}><li className="nav__items acerca__item mx__15">Acerca de</li></Link>
-                            <Link to = "Servicios" smooth={true} offset={-65}><li className="nav__items servicios__item mx__15">Habilidades</li></Link>
+                            <Link to = "Servicios" smooth={true} offset={-70}><li className="nav__items servicios__item mx__15">Habilidades</li></Link>
                             <Link to = "Proyectos" smooth={true} offset={-35}><li className="nav__items proyectos__item mx__15">Proyectos</li></Link>
                             <Link to = "Contacto" smooth={true} offset={-20}><li className="nav__items contacto__item mx__15">Contacto</li></Link>
                         </ul>
