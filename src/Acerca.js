@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 import "./Acerca.css";
 import acercaImg from "./img/foto.jpeg";
-import CV from "./img/JoseManuelCV.pdf";
+import CV from "./img/JoseJaramilloCV.pdf";
 
 
 export default function Acerca() {
